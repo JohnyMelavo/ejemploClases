@@ -5,9 +5,9 @@ $oUsr = new Usuario($_POST["rut"], $_POST["nombre"], $_POST["apellido"]);
 
 //var_dump($oUsr)
 
-?>Rut: <?php $oUsr->getSRut();
-?>Nombre: <?php $oUsr->getSNombre();
-?>Apellido: <?php $oUsr->getSApellido();
+?>Rut: <?= $oUsr->getSRut();
+?></br>Nombre: <?= $oUsr->getSNombre();
+?></br>Apellido: <?= $oUsr->getSApellido();
 ?>
 <?php
 
